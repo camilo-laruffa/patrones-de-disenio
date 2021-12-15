@@ -49,3 +49,13 @@ p {
 
 
 /** CODIGO AQUI **/
+.con-flex {
+    display: flex;
+    gap: 2rem;
+}
+.primero {
+    flex: 3; /* Por cada 1 pixel de segundo, primero obtiene 3 pixeles */
+}
+.segundo {
+    flex: 1;
+}
